@@ -1,0 +1,23 @@
+html body {
+  background-image: url('../img/pexels-mitchell-luo-3694711.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-align: center;
+}
+html body p {
+  text-align: center;
+  max-width: 50%;
+  margin-left: 25%;
+  display: none;
+}
+html body canvas {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
