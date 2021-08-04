@@ -19,8 +19,6 @@ let text1 = document.getElementById('p1');
 let text1Lines = text1.textContent.split('\n');
 let text2 = document.getElementById('p2');
 let text2Lines = text2.textContent.split('\n');
-let splatterImg = new Image();
-splatterImg.src = '../img/splatter.png';
 
 const init = function () {
     canvas1.width = window.innerWidth;
